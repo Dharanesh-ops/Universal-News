@@ -1,0 +1,598 @@
+<!doctype html>
++<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Universal News</title>
+    <link rel="stylesheet" href="news.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <!--This project is prepared by Dharanesh, Haseeba, Nikhila, Kalpana. Its a News website, which consists of featured news and
+     important news. The website is completely responsive-->
+   <!--Brand Logo(Start)-->
+   <header>
+    <h1><img src="./Photos/art-10.jpg"alt="" width="440" height="180"></h1>                  
+   </header>
+   <!--Brand Logo(End)-->
+   <!--Navigation Menu(Start)-->
+   <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="collapse navbar-collapse" id="navbarNav"> 
+         <ul class="navbar-nav"> 
+            <li class="nav-item active"> 
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> 
+             </li> 
+             <li class="nav-item"> 
+                <a class="nav-link" href="#C">Featured News</a> 
+             </li>
+             <li class="nav-item"> 
+              <a class="nav-link" href="#G">News Letter</a> 
+           </li>
+             <li class="nav-item "> 
+              <a class="nav-link" href="#D">News</a>
+             </li> 
+             <li class="nav-item "> 
+              <a class="nav-link" href="#R">Contact Us</a>
+             </li> 
+             <li class="nav-item "> 
+              <a class="nav-link" href="#E">About Us</a>
+             </li> 
+         </ul>
+         <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+    </div> 
+   </nav>
+   <!--Navigation Menu(End)-->
+   <!--Featured News(Slideshow-Start)-->
+  <section id="C">
+    
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+      <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="./Photos/art-3.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                  <h5>Arvind Kejriwal takes charge as Delhi chief minister, transfers nine senior officers</h5>
+                  <p>Kejriwal keeps power and finance portfolios, Sisodia new education minister, Rakhi Birla 
+                      to look after women and child welfare. HIGHLIGHTS | Delhi Chief Minister's full speech | 
+                      Video: Delhi CM's oath ceremony | In pics: AAP ka CM Kejriwal
+                  </p>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <img src="./Photos/art-4.webp" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                  <h5>'Obvious ploy': SBI faces Opposition ire for 'withholding' data on electoral bonds</h5>
+                  <p>Opposition leaders slammed the Centre, saying it "pressured" the SBI to approach the 
+                      Supreme Court as the new deadline it is seeking --June 30 -- would fall after the Lok 
+                      Sabha elections
+                  </p>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <img src="./Photos/art-5.avif" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                  <h5>Katrina Kaif-Vijay Sethupathi's 'Merry Christmas' to stream on OTT from March 8</h5>
+                  <p>Katrina Kaif and Vijay Sethupathi's 'Merry Christmas' will stream on Netflix from March 8. 
+                      The film released in theatres on January 12</p>
+              </div>
+          </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+      </button>
+  </div>
+  
+
+  </section>
+  <!--Featured News(Slideshow-End)-->
+
+  <!--Main News(Start)-->
+   
+   <main id="news-section">
+    <!--News Items-->
+  <section id="D">
+    <div class="card-group">
+        <div class="card">
+          <img src="./Photos/art-1.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">CBI busts human trafficking network taking Indians to Russia ..</h5>
+            <p class="card-text">NEW DELHI: The Central Bureau of Investigation (CBI) on
+                Thursday busted a major human trafficking network
+                involved in sending Indian youths to Russia-Ukraine war
+                zone on the pretext of lucrative jobs.
+                According to officials, the CBI is conducting searches
+                across Delhi, Trivandrum, Mumbai, Ambala, Chandigarh,
+                Madurai and Chennai. The officials said the agency has
+                registered an FIR against various visa consultancy firms
+                and agents.
+                The development comes a day after a 30-year-old man
+                from Hyderabad, Mohammed Afsan, who had been
+                allegedly duped into joining the Russian army, has been
+                killed in the ongoing war with Ukraine.
+                He is the second Indian to be killed in the conflict after a
+                man from Gujarat, Hamil Mangukiya from Surat, was killed
+                about a week ago. Mohammed Imran, Afsan’s brother,
+                wrote back to the Moscow embassy on X, asking for proof
+                of the death. Imran had told TOI recently that he was
+                planning to go to Moscow to trace his brother and bring
+                him home. Imran later told TOI that although he had
+                received a call from the Moscow embassy confirming the
+                death, the recruiting agent claimed his brother was alive
+                and would get some proof latest by Tuesday.
+            </p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./Photos/art-2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Bangalore Water Crisis Explained: What Led To Severe Shortage Of 
+                Water And How City Plans To Tackle It
+            </h5>
+            <p class="card-text">Bangalore: The IT hub is facing a serious water problem, mainly because of a severe drought. 
+                There hasn't been enough rain, which has caused the water levels in the Cauvery 
+                River to drop. This shortage doesn't just affect drinking water but also impacts 
+                irrigation. Additionally, borewells in Bengaluru are drying up because of the lack of 
+                rain in recent months.The Bengaluru Water Supply and Sewerage Board (BWSSB), which supplies drinking water to the tech hub, states that while the situation is manageable in central areas, it's very serious in the city's outskirts.
+                To deal with the water shortage, the state government plans to use milk tankers 
+                from Karnataka Milk Federation (KMF) to deliver water to Bengaluru. They will also take 
+                control of private borewells in and around the city. Deputy Chief Minister DK 
+                Shivakumar discussed this during a meeting with various agencies including BBMP, 
+                BWSSB, and the police. Owners of water tankers have until Thursday to register them 
+                with the government, which will then take over all tankers in the city.
+                People in Bengaluru are saying that water tanker operators are taking advantage of 
+                the water shortage and charging very high prices. Previously, a 1000-liter water tanker 
+                would cost between ₹600 to ₹800, but now it's more than ₹2000.
+            </p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./Photos/art-6.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">
+                Rameshwaram Cafe blast: How cameras in 
+                Bengaluru buses are aiding in the probe</h5>
+            <p class="card-text">
+                Bangalore:
+                The Rameshwaram Cafe blast suspect presumably ran a recce of the spot before the actual operation, 
+                and took measures to avoid identification. He wore a cap, glasses and mask and paid for his Rava idli order at the cafe with cash.
+                To be safe, he chose to travel by bus rather than a private vehicle on the day he carried out the blast. Only 
+                that it wasn’t as foolproof as he’d imagined. He missed out on a tiny detail: Most Bengaluru Metropolitan 
+                Transport Corporation (BMTC) buses have CCTV cameras.
+                Latest footage of the accused – who travelled in a BMTC Volvo bus (KA-01 F4517), which normally plies on 
+                the 500F route (Central Silk Board - Kadugodi) – has emerged. The visuals from March 1, the day he 
+                executed the Improvised Explosive Device (IED) blast in Rameshwaram Cafe that left 10 injured, offer a 
+                clearer look at his face.
+            </p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <img src="./Photos/art-7.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Xiaomi 14 price: Chinese tech giant Xiaomi unveils flagship 
+                                  smartphone Xiaomi 14 in New Delhi, starts at ₹70,000.</h5>
+            <p class="card-text">
+                NEW DELHI:
+                The Xiaomi 14, the flagship smartphone from the Chinese 
+                tech giant, launched at a special event in New Delhi on Thursday, starting at a price of ₹69,999.
+                Here are the top features of Xiaomi 14 series
+                1. Display and Design:
+                • Xiaomi 14: 6.36-inch AMOLED display, Dolby Vision, IP68-
+                rated, available in Jade Green, Matte Black, and Classic 
+                White.
+                • Xiaomi 14 Ultra: 6.73" QHD+ AMOLED quad-curved 
+                screen, Dragon Armor design, available in Black and White 
+                with vegan leather finish.
+
+                2. Operating System and Performance:
+                • Both phones run on Android 14-based HyperOS.
+
+                • Xiaomi 14: Powered by Snapdragon 8 Gen 3, up to 16GB 
+                RAM, IceLoop cooling system.
+
+                • Xiaomi 14 Ultra: Also powered by Snapdragon 8 Gen 3, 
+                16GB RAM, and 512GB internal storage.
+            </p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./Photos/art-8.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Kerala CM Pinarayi Vijayan launches country’s first state-owned OTT platform ’CSpace’</h5>
+            <p class="card-text">
+                Thiruvananthapuram:
+                Kerala Chief Minister Pinarayi Vijayan on Thursday launched 
+                India's first state-owned OTT platform, CSpace in 
+                Thiruvananthapuram. Speaking at the event, the Chief Minister 
+                said the launch of state-run OTT will prove to be a decisive step in 
+                the advancement of Malayalam Cinema, news agency ANI reported.
+
+                "Several private OTT platforms give prominence to films in the 
+                most widely spoken language since their prime motive is to 
+                maximize profit. CSpace's priority will stream content with 
+                artistic and cultural values. This platform is envisioned with the 
+                multifaceted goal of preserving and promoting the Malayalam 
+                language," ANI quoted the Chief Minister as saying.
+            </p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./Photos/art-9.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">
+                Hyderabad edging towards 
+                drinking water crisis
+            </h5>
+            <p class="card-text">Hyderabad: After years of consistent water supply, particularly during 
+                the summers, Hyderabad seems to be edging towards a drinking water crisis.
+
+                With depleting levels in the reservoirs which are the principle water 
+                source for the city and mediocre groundwater levels due to inadequate 
+                rainwater harvesting, the upcoming months of summer are bound to be 
+                challenging.
+                Although few localities experienced water shortages in the past, the 
+                overall supply in the city used to be sufficient. However, this time 
+                around, the Hyderabad Metropolitan Water Supply and Sewerage Board 
+                (HMWS&SB) seems to be less prepared, which is showcased in not just 
+                the delayed water tanker deliveries, but also their increased bookings in the first place.
+
+                Multiple residential colonies in Hyderabad, especially those in close 
+                proximity to the IT corridor, are complaining about unreliable municipal 
+                water supply and tanker delivery. In some areas, while there is a regular 
+                water supply, the pressure is too low to fulfill their requirements.
+            </p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card-group">
+          <div class="card">
+            <img src="./Photos/art-11.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Israel-Gaza war: Joe Biden to establish temporary 
+                port off Gaza for aid delivery</h5>
+              <p class="card-text">
+                President Joe Biden will announce Thursday that the US military 
+                will set up a temporary port off Gaza, senior administration 
+                officials said as reported by Associated Press. This action comes 
+                amidst global efforts to create a sea route for food and other aid 
+                as UN and U.S. officials warn of famine among Palestinian 
+                civilians trapped by the Israel-Hamas war.
+                The announcement signals further deepening U.S. involvement in 
+                the war and the escalating tensions and fighting in the region. It 
+                also shows the Biden administration resorting to an unusual 
+                workaround to get help to Gaza's 2.3 million people, as it deals 
+                with restrictions that U.S. ally Israel has placed on overland aid 
+                deliveries, and with growing criticism of the administration's own 
+                handling of the conflict.
+              </p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./Photos/art-12.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">
+                Mahashivratri 2024: Know ‘Puja’ timing, fasting 
+                rules, things to offer to Lord Shiva, other details
+              </h5>
+              <p class="card-text">
+                Mahashivratri 2024: The Hindu festival Mahashivratri, dedicated 
+                to Lord Shiva and Goddess Parvati, will be celebrated across India 
+                on 8 March Friday. The Shivratri or Mahashivratri festival is 
+                celebrated with full grandeurs across Hindu temples, praying to 
+                Lord Shiva destroyer and the most compassionate God of this 
+                universe.
+
+                Mahashivratri 2024: Puja time
+                Chaturdashi Tithi begins at 09:57 pm on 8 March
+
+                Chaturdashi Tithi ends at 06:17 pm on 9 March.
+
+                Nishita Kaal Puja is 2:07 am to 12:56 am on 9 March
+              </p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./Photos/art-13.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">
+                Shaitaan movie review: ‘Chills, shock value, 
+                promising..,’ netizens react on Ajay Devgn-starrer 
+                movie
+              </h5>
+              <p class="card-text">
+                Taking on X, Taran Adarsh wrote, "Rating: ⭐⭐⭐⭐️ Drama. 
+                Thrills. Chills. Shock-value. All enveloped in a near-perfect, 
+                captivating plot… This is supernatural genre done right… 
+                Unpredictable twists and turns are a big plus… Watch it!
+
+                The written material gives ample scope to the principal cast to 
+                spread their wings… #AjayDevgn excels as the helpless parent; 
+                conveys fear, concern and vulnerability with precision… 
+                #RMadhavan is outstanding; he is savage, vicious and sadistic, all 
+                combined, without going overboard.
+                
+                It’s a delight to watch #Jyotika on the #Hindi screen after a really 
+                long gap. She’s in super form… #JankiBodiwala gets to portray 
+                the most difficult part in the film and she does a brilliant job.
+                
+                Director #VikasBahl charters into the supernatural territory for 
+                the first time and the execution of the subject keeps you on 
+                tenterhooks for most parts… Only thing, the post-interval 
+                portions could’ve been sharper and tighter.
+                
+                Last but not the least, a special mention of the terrific 
+                background score [#AmitTrivedi], it amplifies the tension and 
+                unsettling vibe."
+                
+                Meanwhile, Nambiar, who earlier directed films such as "Shaitan", 
+                "David" and "Taish", has also produced the movie along with 
+                Prabhu Antony and Madhu Alexander.
+                
+                “First Time Watching a Debue Actress Overshadow Legendary 
+                Actors in Every Scene . Kudos To @jankibodiwala 
+                @ActorMadhavan as Antagonist Will Be Remembered For a Long 
+                Time," wrote a user on X.
+              </p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card-group">
+            <div class="card">
+              <img src="./Photos/art-14.avif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Himachal Pradesh news: Severe snowfall hits 
+                  Lahaul-Spiti; electricity, communication down
+                </h5>
+                <p class="card-text">
+                  Heavy snowfall in Himachal Pradesh's Lahual and Spiti district 
+                  threw normal life out of order as the communications networks, 
+                  electricity, and water supply remained disrupted for days. The 
+                  fresh tranche of snowfall started on March 2 and a white sheet of 
+                  snow is covering the upper reaches of the hill station.
+
+                  An official from the local administration spoke with news agency 
+                  ANI through a satellite phone and revealed that the recent 
+                  snowfall had disrupted the entire communication infrastructure 
+                  in the region, leaving only satellite phones operational.
+                  
+                  The official said that the restoration of communication networks 
+                  and water supply is contingent upon the restoration of power 
+                  lines.
+                  
+                  While speaking about the blockage of infrastructure in Lahual 
+                  and Spiti, the official said that numerous roadways, encompassing 
+                  three national highways, have been shut down in the region due 
+                  to the snowfall. Notably, the region experienced an avalanche at 
+                  Tandi Bridge, resulting in the partial burial of shops in the vicinity.
+                  
+                  <b>Restoration work underway on a war footing</b>
+
+                  The administration said that the restoration work for the 
+                  communication and electricity lines is underway on a war footing. 
+                  A SDRF official added that a total of 346 roads, including three 
+                  national highways, are currently inaccessible. Additionally, 365 
+                  electricity supply schemes have been adversely affected, and 
+                  eight water supply schemes have been disrupted as a 
+                  consequence of the snowfall.
+                  
+                  In the Lahaul-Spiti district, specifically, two national highways and 
+                  260 roads are presently closed, and 155 electricity supply 
+                  schemes in the area have encountered disruptions.
+                </p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./Photos/art-15.avif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Samsung Galaxy S23 receives a MASSIVE 28% 
+                  price cut on Amazon: Check offer details
+                </h5>
+                <p class="card-text">
+                  In a move that delights smartphone enthusiasts, the Samsung Galaxy 
+                  S23 5G has undergone a significant price reduction on Amazon, now 
+                  available at an enticing Rs. 64,999, instead of its original price Rs. 89,999. 
+                  This substantial 28 percent discount opens up an excellent opportunity for users to upgrade to a premium device.
+
+                  The price cut is complemented by various offers and discounts, 
+                  enhancing the overall purchase experience for customers. 
+                  Multiple bank offers extend discounts of up to Rs. 9,000 on select credit cards and HDFC Bank debit cards. 
+                  Additionally, customers can opt for a hassle-free EMI payment option at no extra cost, leading to savings 
+                  of up to Rs. 5,101.44 on select credit cards, HDFC Bank debit cards, and Amazon Pay Later. 
+                  Partner offers also provide users with a chance to obtain a GST invoice and save up to 28% on business purchases.
+                  
+                  The Samsung Galaxy S23 boasts impressive features, justifying its popularity among smartphone users. 
+                  Running on the latest Android 13.0 operating system and equipped with 5G cellular technology, 
+                  it ensures seamless connectivity and enhanced performance. A standout feature is its advanced camera system, 
+                  particularly the Nightography mode, promising stunning low-light photos and videos with enhanced clarity and vividness.
+                  
+                  Beyond its features, the Samsung Galaxy S23 is designed with sustainability in mind. 
+                  Incorporating recycled materials such as glass and PET film, and colored with natural dyes, 
+                  the device reflects Samsung's commitment to reducing environmental impact and promoting sustainable practices.
+                  
+                  Under the hood, the Galaxy S23 is powered by the Snapdragon 8 Gen 2 Mobile Platform, ensuring smooth and 
+                  efficient performance, even during resource-intensive tasks like mobile gaming. 
+                  
+                  In conclusion, the recent price cut on the Samsung Galaxy S23 5G, coupled with its 
+                  impressive features and sustainability initiatives, positions it as an attractive option
+                   for users seeking a premium smartphone experience.
+                </p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./Photos/art-16.avif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">
+                  PM Modi takes a jibe at opposition in Siliguri: ‘TMC 
+                  worried about nephews, Congress about ...’
+                </h5>
+                <p class="card-text">
+                  During his visit to West Bengal's Siliguri, Prime Minister Narendra Modi unveiled a 
+                  range of infrastructure projects in the state worth more than ₹4,500 crore. He also 
+                  took a jibe at the opposition parties and said that the TMC and the Congress are busy 
+                  in supporting their nephews, sons and daughters. 
+
+                  He also accused the TMC of looting the state for several years and said that it is the 
+                  TMC government which is not letting the MNREGA money and other funds released for the 
+                  state reach to the people.
+                  
+                  "Over the last 10 years, development of the state, especially its northern region, has 
+                  been a priority for our government. We need 21st century infrastructure for the development 
+                  of this area," he said. During his visit, PM launched several projects of railway line 
+                  electrification in northern West Bengal.
+                </p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+        </div>
+   </section>
+        <!--Main News(End)-->
+              
+     <!--Contact Us(Start)-->
+    <section id="R">
+      <h1 class="text-danger" align="center">Contact Us</h1>
+       <form> 
+       <div class="form-group"> 
+      <label for="contactName">Name</label> 
+      <input type="text" class="form-control" id="contactName" placeholder="Enter your name"> 
+      </div> 
+      <div class="form-group"> 
+        <label for="contactEmail">Email</label> 
+        <input type="email" class="form-control" id="contactEmail" placeholder="Enter your email"> 
+       </div> 
+       <div class="form-group"> 
+        <label for="contactMessage">Message</label> 
+        <textarea class="form-control" id="contactMessage" rows="3"></textarea> 
+       </div> 
+       <button type="submit" class="btn btn-danger">Submit</button> 
+      </form>
+    </section>
+     <!--Contact Us(End)-->
+    <section id="G">
+      <h1 class="text-danger" align="center">News Letter</h1>
+      <form class="news-letter" action="#">
+        <label for="contactName">Name</label><br> 
+        <input type="text" name="name" value placeholder="Your Name"><br>
+        <label for="contactEmail">Email</label><br>
+        <input type="text" name="email" value placeholder="Your Email"><br>
+        <input type="date" name="date" value placeholder="Your starting date for News Letter publishment"><br>
+        <button type="submit" class="btn btn-danger">Register</button>
+      </form>
+    </section>
+   </main>
+    <!--About Us(Start)-->
+   <footer id="E">
+  
+<div class="footer-content">
+    <h1 class="text-danger"><img src="./Photos/art-17.jpg" alt="" width="220" height="90">&nbsp;&nbsp;About Us</h1>
+    <div id="aboutCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="./Photos/quote-1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+              <img src="./Photos/quote-2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+              <img src="./Photos/quote-3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+              <img src="./Photos/quote-4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./Photos/quote-3.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="./Photos/quote-4.jpg" class="d-block w-100" alt="...">
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#aboutCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#aboutCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+      </button>
+  </div>
+    <ul class="yellow-text">
+        <li><u>World News</u></li>
+        <li><u>Politics</u></li>
+        <li><u>Business</u></li>
+        <li><u>Technology</u></li>
+        <li><u>Science</u></li>
+        <li><u>Health</u></li>
+        <li><u>Entertainment</u></li>
+        <li><u>Sports</u></li>
+        <li><u>Opinion</u></li>
+    </ul>
+    <p>The Universal News Brand is a trusted source of information, delivering accurate and impartial coverage of global events. With a commitment to journalistic excellence, it provides comprehensive news and analysis across various platforms, serving as a beacon of truth in an era of misinformation. Universal News delivers the latest updates from around the globe right to your fingertips. From breaking news to in-depth analysis, we bring you the stories that matter most. Stay informed, stay ahead, with Universal News – your window to the world.</p>
+    <p>The above quotes tells, that we deliver genuine and authentic news.</p>
+    <p>Universal news delivers consistent original information validated by our employees 
+      and we make sure that data is accurate, so that people are not misinformed."Universal News: Your trusted global source for accurate, impartial reporting. Stay informed, stay ahead with Universal News.</p>
+    <p class="green-text"><b>Contact info: info@UniversalNews.com</b></p>
+    <p class="text-danger"><b>Follow Us on social media:</b></p>
+    <ul class="list-unstyled">
+        <li><a href="#" class="text-decoration-none">Twitter</a></li>
+        <li><a href="#" class="text-decoration-none">Facebook</a></li>
+        <li><a href="#" class="text-decoration-none">Instagram</a></li>
+        <li><a href="#" class="text-decoration-none">LinkedIn</a></li>
+    </ul>
+    <p class="text-primary">Copyright & Design By @UniversalNews - 2024</p>
+</div>
+
+
+   </footer>
+   <!--About Us(End)-->
+   <div class="social-media-icons"> 
+     <a href="#" class="fa fa-facebook"></a> 
+     <a href="#" class="fa fa-twitter"></a> 
+     <a href="#" class="fa fa-instagram"></a>
+      <!-- Add as many as you like --> 
+    </div>
+    <!--Social Media Icons(Start)-->
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+          <a class="page-link">Previous</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#">Next</a>
+        </li>
+      </ul>
+    </nav>
+    <!--About Us(End)-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+header{
+    background-color:white;
+    color: rgb(35, 32, 32);
+    text-align: center;
+}
+
+header h1{
+    font-size: 2rem;
+}
+
+#navbar { 
+    position: sticky; 
+    top: 0; 
+    z-index: 1000; 
+}
+
+footer{
+    background-color:rgb(42, 3, 3);
+    color:white;
+    text-align: center;
+    padding:20px;
+    position:bottom;
+    left:0;
+    bottom:0;
+    width:100%
+}
+.green-text {
+    color: green;
+}
+.yellow-text {
+    color: teal;
+}
+
+
+.fa { 
+    padding: 15px; 
+    font-size: 20px; 
+    width: 50px; 
+    text-align: center;
+    text-decoration: none; 
+    margin: 5px 2px;
+}
+
+.fa:hover { 
+    opacity: 0.7; 
+}
+
+.fa-facebook { 
+    background: #3B5998; 
+    color: white;
+}
+
+.fa-twitter { 
+    background: #55ACEE; 
+    color: white; 
+}
+
+.fa-instagram { background: #125688; 
+    color: white;
+}
+
+
+
+
